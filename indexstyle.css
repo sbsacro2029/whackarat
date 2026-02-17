@@ -1,0 +1,52 @@
+body {
+  background-color: #208AAE;
+  color: #0D2149;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  display: grid;
+  place-items: center;
+  margin-top: 60px;
+}
+.game {
+  background-color: #F9EBE0;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.start {
+  background-color: #00BD9D;
+  width: 243px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.1s;
+}
+.start:hover {
+  transform: scale(1.1);
+  transition-duration: 0.1s;
+  background-color: #54DEFD;
+}
+.row-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.box{
+  width: 150px;
+  height: 100px;
+  background-image: url('https://i.imgur.com/UJTEkIK.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: -10px;
+  cursor: pointer;
+}
+.up {
+  background-image: url('https://i.imgur.com/fa3r0ML.png');
+}
